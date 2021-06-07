@@ -13,53 +13,57 @@
 
   <section class="call">
     <div class="call-wrapper">
-      <div class="call__actions">
-        <button class="call__action" type="button">
-          <span>
-            <img src="./images/go-to-bottom.svg" alt="">
-          </span>
-        </button>
-        <button class="call__action" type="button">
-          <span>
-            <img src="./images/full-screen.svg" alt="">
-          </span>
-        </button>
-        <button class="call__action" type="button">
-          <span>
-            <img src="./images/close-call-modal.svg" alt="">
-          </span>
-        </button>
+      <video class="call-video__peer" src=""></video>
+      <div class="call-wrapper__content">
+        <div class="call__actions">
+          <button class="call__action" type="button">
+            <span>
+              <img src="./images/go-to-bottom.svg" alt="">
+            </span>
+          </button>
+          <button class="call__action" type="button">
+            <span>
+              <img src="./images/full-screen.svg" alt="">
+            </span>
+          </button>
+          <button class="call__action" type="button">
+            <span>
+              <img src="./images/close-call-modal.svg" alt="">
+            </span>
+          </button>
+        </div>
+        <div class="call__avatar"></div>
+        <p class="call__username">Ботир Тулкунов</p>
+        <p class="call__duration">01:12</p>
+        <span class="call__going">Вызов...</span>
+        <div class="call__services">
+          <button class="call__service" type="button">
+            <span class="call__service-icon">
+              <img src="./images/video.svg" alt="">
+            </span>
+            <span class="call__service-info">Видео.</span>
+          </button>
+          <button class="call__service call__service--end" type="button">
+            <span class="call__service-icon">
+              <img src="./images/call-end.svg" alt="">
+            </span>
+            <span class="call__service-info">Отклонить.</span>
+          </button>
+          <button class="call__service call__service--start" type="button">
+            <span class="call__service-icon">
+              <img src="./images/call-begin.svg" alt="">
+            </span>
+            <span class="call__service-info">Принять.</span>
+          </button>
+          <button class="call__service" type="button">
+            <span class="call__service-icon">
+              <img src="./images/voice-mute.svg" alt="">
+            </span>
+            <span class="call__service-info">Микр.</span>
+          </button>
+        </div>
       </div>
-      <div class="call__avatar"></div>
-      <p class="call__username">Ботир Тулкунов</p>
-      <p class="call__duration">01:12</p>
-      <span class="call__going">Вызов...</span>
-      <div class="call__services">
-        <button class="call__service" type="button">
-          <span class="call__service-icon">
-            <img src="./images/video.svg" alt="">
-          </span>
-          <span class="call__service-info">Видео.</span>
-        </button>
-        <button class="call__service call__service--end" type="button">
-          <span class="call__service-icon">
-            <img src="./images/call-end.svg" alt="">
-          </span>
-          <span class="call__service-info">Отклонить.</span>
-        </button>
-        <button class="call__service call__service--start" type="button">
-          <span class="call__service-icon">
-            <img src="./images/call-begin.svg" alt="">
-          </span>
-          <span class="call__service-info">Принять.</span>
-        </button>
-        <button class="call__service" type="button">
-          <span class="call__service-icon">
-            <img src="./images/voice-mute.svg" alt="">
-          </span>
-          <span class="call__service-info">Микр.</span>
-        </button>
-      </div>
+      <video class="call-video__own" src=""></video>
     </div>
   </section>
 
